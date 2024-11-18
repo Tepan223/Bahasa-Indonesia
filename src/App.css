@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+  background-color: bisque;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.text-head{
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+}
+
+.side-bar{
+  background-color: bisque;
+  width: 30%;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 840px;
+}
+
+.text-head-side-bar{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.button-text{
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  padding: 20px 190px;
+  box-shadow: 0 10px 0 black;
+  cursor: pointer;
+  margin: 0px 0px 15px 0px ;
+  max-width: 700px;
+  width: 100%;
+}
+
+.button-text:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+
+.button-text:active{
+  box-shadow: 0px 5px 0px black;
+  transform: translateY(5px);
+}
+
+.main-content{
+  display: flex;
+}
+
+.cerita{
+  height: 840px;
+  width: 70%;
+  background-color: bisque;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 30px;display: flex;
+  flex-direction: column;
+}
+
+.cerita h1{
+  margin: 0px 0px 20px 0px;
+  font-size: 50px;
+}
+
+.cerita-content p{
+  font-size: 30px;
+}
